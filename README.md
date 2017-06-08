@@ -3,12 +3,15 @@ Simplr (aka simplr styler) is a way to increase productivity by simplifying web 
 
 ## Getting Started
 Simplr is meant to be, simple. It offers various controls over HTML elements, such as:
-* Complete Grid System
+* Complete Gridr (Grid) System
 * Complete Color Sets
 * Responsiveness
 * Success/Warn/Danger/Info Panels
 
 At the time being, Simplr has a working prototype but developer considered not to share until beta state is achieved.
+
+### About Gridr System
+Unlike the most of grid systems out there, Gridr uses a 20 grid system instead of 12. This brings an even better positioning to the front ends.
 
 ## Authors
 
