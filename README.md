@@ -13,9 +13,6 @@ At the time being, Simplr has a working prototype but developer considered not t
 ## Authors
 
 * **Arda Ntourali** - *Foundation* - [rdadrl@Github](https://github.com/rdadrl)
-
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
-
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+This project is licensed under the MIT License
