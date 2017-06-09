@@ -17,8 +17,7 @@ Codename: Nude
 
 Author: Arda NTOURALI
 Github: rdadrl
-*/
-html {
+*/html {
 	margin: 0;
 	padding: 0;
 
@@ -38,6 +37,29 @@ html {
     	font-size: 14px;
   	}
 }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol {
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-bottom: 0.5rem;
+  line-height: 1.1;
+}
+
 .row, 
 .col {
     box-sizing: border-box;
@@ -55,14 +77,13 @@ html {
 .col {
     position: relative;
     float: left;
-    border: 1px solid #ccc;
-    border-radius: 4px;
 }
 
 /* for every col followed by col have a 1.5% gap */
 .col + .col {
     margin-left: 1.5%;
 }
+
 /*(100 - (1.5 * (20 - 1))) / 20 = 3.575% width per col */
 .col-1 { width: 3.575%; }
 .col-2 { width: 8.65%; }
@@ -135,43 +156,109 @@ html {
 .mv-19 { margin-left: calc(94.925% + 1.5%) !important; }
 .mv-20 { margin-left: calc(100% + 1.5%) !important; }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p,
-ul,
-ol {
-  margin-top: 0;
-  margin-bottom: 1rem;
+.text-center { text-align: center !important; }
+.text-left { text-align: left !important; }
+.text-right { text-align: right !important; }
+.text-upper { text-transform: uppercase !important; }
+.text-lower { text-transform: lowercase !important; }
+.text-capital { text-transform: capitalize !important; }
+
+.bg-success { background: #98f9af !important; }
+.bg-info { background: #9eeaff !important; }
+.bg-warn { background: #ffe19e !important; }
+.bg-danger { background: #ff7775 !important; }
+.bg-extra { background: #c89eff !important; }
+
+.text-success { color: #7cd17b !important; }
+.text-info { color: #8493e0 !important; }
+.text-warn { color: #e0d584 !important; }
+.text-danger { color: #ff7775 !important; }
+.text-extra { color: #b47ff9 !important; }
+.text-white { color: #fff !important; }
+
+.text-weight-1 { font-weight: 100 !important; }
+.text-weight-2 { font-weight: 200 !important; }
+.text-weight-3 { font-weight: 300 !important; }
+.text-weight-4 { font-weight: 400 !important; }
+.text-weight-5 { font-weight: 500 !important; }
+.text-weight-6 { font-weight: 600 !important; }
+.text-weight-7 { font-weight: 700 !important; }
+.text-weight-8 { font-weight: 800 !important; }
+.text-weight-9 { font-weight: 900 !important; }
+
+.text-style-normal { font-style: normal !important; }
+.text-style-italic { font-style: italic !important; }
+.text-style-oblique { font-style: oblique !important; }
+
+.border { border: 2px solid #ccc; }
+.border-sm { border: 1px solid #ccc; }
+.border-lg { border: 3px solid #ccc; }
+.border-xl { border: 5px solid #ccc; }
+.border-huge { border: 8px solid #ccc; }
+
+.border-left { border-left: 2px solid #ccc; }
+.border-left-sm { border-left: 1px solid #ccc; }
+.border-left-lg { border-left: 3px solid #ccc; }
+.border-left-xl { border-left: 5px solid #ccc; }
+.border-left-huge { border-left: 8px solid #ccc; }
+
+.border-right { border-right: 2px solid #ccc; }
+.border-right-sm { border-right: 1px solid #ccc; }
+.border-right-lg { border-right: 3px solid #ccc; }
+.border-right-xl { border-right: 5px solid #ccc; }
+.border-right-huge { border-right: 8px solid #ccc; }
+
+.border-top { border-top: 2px solid #ccc; }
+.border-top-sm { border-top: 1px solid #ccc; }
+.border-top-lg { border-top: 3px solid #ccc; }
+.border-top-xl { border-top: 5px solid #ccc; }
+.border-top-huge { border-top: 8px solid #ccc; }
+
+.border-bottom { border-bottom: 2px solid #ccc; }
+.border-bottom-sm { border-bottom: 1px solid #ccc; }
+.border-bottom-lg { border-bottom: 3px solid #ccc; }
+.border-bottom-xl { border-bottom: 5px solid #ccc; }
+.border-bottom-huge { border-bottom: 8px solid #ccc; }
+
+.border-success { border-color: #7cd17b !important; }
+.border-info { border-color: #8493e0 !important; }
+.border-warn { border-color: #e0d584 !important; }
+.border-danger { border-color: #ff7775 !important; }
+.border-extra { border-color: #b47ff9 !important; }
+.border-white { border-color: #fff !important; }
+
+.border-radius-1 { border-radius: 2px; }
+.border-radius-2 { border-radius: 4px; }
+.border-radius-3 { border-radius: 5px; }
+.border-radius-4 { border-radius: 7px; }
+.border-radius-5 { border-radius: 9px; }
+.border-radius-6 { border-radius: 12px; }
+.border-radius-7 { border-radius: 14px; }
+.border-radius-8 { border-radius: 17px; }
+.border-radius-9 { border-radius: 21px; }
+.border-radius-10 { border-radius: 24px; }
+
+.btn {
+	-moz-box-shadow:inset 0px 1px 0px 0px #ffffff;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #ffffff;
+	box-shadow:inset 0px 1px 0px 0px #ffffff;
+	-moz-border-radius:6px;
+	-webkit-border-radius:6px;
+	border-radius:5px;
+	border:1px solid #ccc;
+	display:inline-block;
+	cursor:pointer;
+	color:#666666;
+	padding:6px 20px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #ffffff;
 }
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  margin-bottom: 0.5rem;
-  line-height: 1.1;
+.btn:hover {
+	-moz-box-shadow:inset 0px 0px 2px 1px 0px #ccc;
+	-webkit-box-shadow:inset 0px 0px 2px 1px 0px #ccc;
+	box-shadow:inset 0px 0px 2px 1px #ccc;
 }
-
-.text-center { text-align: center; }
-.text-left { text-align: left; }
-.text-right { text-align: right; }
-.text-upper { text-transform: uppercase; }
-.text-lower { text-transform: lowercase; }
-.text-capital { text-transform: capitalize; }
-
-.bg-success { background: #98f9af; }
-.bg-info { background: #9eeaff; }
-.bg-warn { background: #ffe19e; }
-.bg-danger { background: #ff7775; }
-.bg-extra { background: #c89eff; }
-
-.text-success { color: #7cd17b; }
-.text-info { color: #8493e0; }
-.text-warn { color: #e0d584; }
-.text-danger { color: #ff7775; }
-.text-extra { color: #b47ff9; }
+.btn:active {
+	position:relative;
+	top:1px;
+}
