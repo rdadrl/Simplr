@@ -40,7 +40,6 @@ html {
 }
 .row, 
 .col {
-	border: 1px solid #ccc;
     box-sizing: border-box;
 }
 .row:before,
@@ -56,6 +55,8 @@ html {
 .col {
     position: relative;
     float: left;
+    border: 1px solid #ccc;
+    border-radius: 4px;
 }
 
 /* for every col followed by col have a 1.5% gap */
@@ -113,26 +114,26 @@ html {
         margin-left: 0;
     }
 }
-.mv-1 { margin-left: 3.575% !important; }
-.mv-2 { margin-left: 8.65% !important; }
-.mv-3 { margin-left: 13.725% !important; }
-.mv-4 { margin-left: 18.8% !important; }
-.mv-5 { margin-left: 23.875% !important; }
-.mv-6 { margin-left: 28.95% !important; }
-.mv-7 { margin-left: 34.025% !important; }
-.mv-8 { margin-left: 39.1% !important; }
-.mv-9 { margin-left: 44.175% !important; }
-.mv-10 { margin-left: 49.25% !important; }
-.mv-11 { margin-left: 54.325% !important; }
-.mv-12 { margin-left: 59.4% !important; }
-.mv-13 { margin-left: 64.475% !important; }
-.mv-14 { margin-left: 69.55% !important; }
-.mv-15 { margin-left: 74.625% !important; }
-.mv-16 { margin-left: 79.7% !important; }
-.mv-17 { margin-left: 84.775% !important; }
-.mv-18 { margin-left: 89.85% !important; }
-.mv-19 { margin-left: 94.925% !important; }
-.mv-20 { margin-left: 100% !important; }
+.mv-1 { margin-left: calc(3.575% + 1.5%) !important; }
+.mv-2 { margin-left: calc(8.65% + 1.5%) !important; }
+.mv-3 { margin-left: calc(13.725% + 1.5%) !important; }
+.mv-4 { margin-left: calc(18.8% + 1.5%) !important; }
+.mv-5 { margin-left: calc(23.875% + 1.5%) !important; }
+.mv-6 { margin-left: calc(28.95% + 1.5%)!important; }
+.mv-7 { margin-left: calc(34.025% + 1.5%) !important; }
+.mv-8 { margin-left: calc(39.1% + 1.5%) !important; }
+.mv-9 { margin-left: calc(44.175% + 1.5%) !important; }
+.mv-10 { margin-left: calc(49.25% + 1.5%) !important; }
+.mv-11 { margin-left: calc(54.325% + 1.5%) !important; }
+.mv-12 { margin-left: calc(59.4% + 1.5%) !important; }
+.mv-13 { margin-left: calc(64.475% + 1.5%) !important; }
+.mv-14 { margin-left: calc(69.55% + 1.5%) !important; }
+.mv-15 { margin-left: calc(74.625% + 1.5%) !important; }
+.mv-16 { margin-left: calc(79.7% + 1.5%) !important; }
+.mv-17 { margin-left: calc(84.775% + 1.5%) !important; }
+.mv-18 { margin-left: calc(89.85% + 1.5%) !important; }
+.mv-19 { margin-left: calc(94.925% + 1.5%) !important; }
+.mv-20 { margin-left: calc(100% + 1.5%) !important; }
 
 h1,
 h2,
@@ -162,3 +163,15 @@ h6 {
 .text-upper { text-transform: uppercase; }
 .text-lower { text-transform: lowercase; }
 .text-capital { text-transform: capitalize; }
+
+.bg-success { background: #98f9af; }
+.bg-info { background: #9eeaff; }
+.bg-warn { background: #ffe19e; }
+.bg-danger { background: #ff7775; }
+.bg-extra { background: #c89eff; }
+
+.text-success { color: #7cd17b; }
+.text-info { color: #8493e0; }
+.text-warn { color: #e0d584; }
+.text-danger { color: #ff7775; }
+.text-extra { color: #b47ff9; }
