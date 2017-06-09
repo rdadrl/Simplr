@@ -1,6 +1,8 @@
 # Simplr
 Simplr (aka simplr styler) is a way to increase productivity by simplifying web styling but still leaving huge extensions for the user to develop.
 
+Simplr's aim is to simplify styling front end designs by handling the stuff every not-really-a-frontend-designer tries to accomplish like grid system, positioning, text, panel handling etc...
+
 ## Getting Started
 Simplr is meant to be, simple. It offers various controls over HTML elements, such as:
 * Complete Gridr (Grid) System
