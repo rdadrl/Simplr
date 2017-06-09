@@ -17,7 +17,8 @@ Codename: Nude
 
 Author: Arda NTOURALI
 Github: rdadrl
-*/html {
+*/
+html {
 	margin: 0;
 	padding: 0;
 
@@ -130,6 +131,27 @@ h6 {
         width: auto;
         float: none;
     }
+	.mv-1,
+	.mv-2,
+	.mv-3,
+	.mv-4,
+	.mv-5,
+	.mv-6,
+	.mv-7,
+	.mv-8,
+	.mv-9,
+	.mv-10,
+	.mv-11,
+	.mv-12,
+	.mv-13,
+	.mv-14,
+	.mv-15,
+	.mv-16,
+	.mv-17,
+	.mv-18,
+	.mv-19,
+	.mv-20 { margin-left: 0; }
+
 
     .col + .col {
         margin-left: 0;
@@ -262,3 +284,4 @@ h6 {
 	position:relative;
 	top:1px;
 }
+
