@@ -13,11 +13,15 @@ Simplr is meant to be, simple. It offers various controls over HTML elements, su
 At the time being, Simplr has a working prototype but it is not recommended to use until beta state is achieved.
 
 ### About Gridr System
-Unlike the most of grid systems out there, Gridr uses a 20 grid system instead of 12. This brings an even better positioning to the front ends.
+Unlike the most of grid systems out there, Gridr uses a 20 (2x, 4x, 5x) grid system instead of 12 (2x, 3x, 4x, 6x). This brings an even better positioning to the front ends.
 
 ## Authors
 
 * **Arda Ntourali** - *Foundation* - [rdadrl@Github](https://github.com/rdadrl)
+
+## Credits
+* **[Normalize.CSS](https://github.com/necolas/normalize.css/)**
+
 ## License
 
 This project is licensed under the MIT License
